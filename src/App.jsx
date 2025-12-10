@@ -5,6 +5,7 @@ import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import FeedPage from './pages/FeedPage';
 import ExplorePage from './pages/ExplorePage';
+import AllPostsPage from './pages/AllPostsPage';
 import ProfilePage from './pages/ProfilePage';
 import PostDetailPage from './pages/PostDetailPage';
 import CreatePostPage from './pages/CreatePostPage';
@@ -81,6 +82,7 @@ function App() {
 
           {/* 부분 인증 라우트 (비로그인도 조회 가능) */}
           <Route path="/explore" element={<ExplorePage />} />
+          <Route path="/all" element={<AllPostsPage />} />
           <Route path="/post/:id" element={<PostDetailPage />} />
           <Route path="/profile/:username" element={<ProfilePage />} />
 

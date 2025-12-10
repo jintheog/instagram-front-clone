@@ -25,6 +25,9 @@ const Header = () => {
               <Link to="/" className="nav-link">
                 홈
               </Link>
+              <Link to="/all" className="nav-link">
+                전체
+              </Link>
               <Link to="/explore" className="nav-link">
                 탐색
               </Link>
@@ -44,6 +47,9 @@ const Header = () => {
             </>
           ) : (
             <>
+              <Link to="/all" className="nav-link">
+                전체
+              </Link>
               <Link to="/explore" className="nav-link">
                 탐색
               </Link>
