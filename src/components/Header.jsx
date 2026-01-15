@@ -16,7 +16,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <Link to="/" className="logo">
-          Insta
+          My-Instagram
         </Link>
 
         <nav className="nav">
